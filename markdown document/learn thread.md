@@ -1,9 +1,9 @@
 # MarkDown Learn Thread
 
-- Tutorial source: https://www.markdownguide.org/
+- Tutorial source: [Tutorial Site](https://www.markdownguide.org/)
 - Learning reason: I want to write my learning note by using markdown
 
-# Basic Syntax
+# Markdown Syntax
 
 ## Heading and Paragragh
 
@@ -16,19 +16,52 @@ Headings have two ways to define the style level, one is using the '#'/number si
 
 1. '#'/number sign
    If using the '#' to set the Heading style, should add the "#"s in the front of your heading content, like:
-   > '## HeadingContent'
+
+   > ## HeadingContent
+
+   > `## HeadingContent`
+
    And the relaship of this specified, like:
-   > '# * 1~6 = h1~h6'
+
+   > |Syntax Mark|Heading Style|
+   > |:---:|:---:|
+   > |#|h1|
+   > |...|...|
+   > |######|h6|
 
 2. '==' and '--'
    If using '==' or '--' to set Heading style, that must using any number of '=' or '-' to put on the bottown of the Heading content:
-   > 'HeadingContent'
-   > '======'
+
+   > HeadingContent
+    -----
+   >
+   > code:
+   > `HeadingContent`
+   > `-----`
+
    That mean using the h1 style to display heading content, the relaship of they two, like:
-   > '==' = 'h1'
-   > '--' = 'h2'
+
+   > |Syntax Mark|Heading Style|
+   > |:---:|:---:|
+   > |==|h1|
+   > |--|h2|
 
 ### Paragragh
+
+The Paragragh is another basic element class. They use a blank line to split themself. And if you not use a blank line, the two paragreghs may become one， like following:
+
+> ||Correct|Mistake|
+> |:---:|:---:|:---:|
+> |Code|`Paragragh1`<br><br>`Paragragh2`|`Paragragh1`<br>`Paragragh2`|
+> |Display|Paragragh1<br>Paragragh2|Paragragh1Paragragh2|
+
+### Text Style
+
+In the paragraghs, they have some another syntax to decorate themselves.
+
+1. Line Breaks
+
+2. Bold and Italic
 
 ## Inserts
 
@@ -37,12 +70,6 @@ Headings have two ways to define the style level, one is using the '#'/number si
 ### Images
 
 ### Horizontal Rule
-
-## Words Style
-
-### Line Breaks
-
-### Bold and Italic
 
 ## Blocks
 
