@@ -15,6 +15,7 @@ The Heading means words will become bigger and thicker than usauly, it have six 
 Headings have two ways to define the style level, one is using the '#'/number sign to specify the all six levels, and the another is using '==' and '--' to specify the first two.
 
 1. '#'/number sign
+
    If using the '#' to set the Heading style, should add the "#"s in the front of your heading content, like:
 
    > ## HeadingContent
@@ -30,13 +31,16 @@ Headings have two ways to define the style level, one is using the '#'/number si
    > |######|h6|
 
 2. '==' and '--'
+
    If using '==' or '--' to set Heading style, that must using any number of '=' or '-' to put on the bottown of the Heading content:
 
    > HeadingContent
-    -----
+   > -----
    >
    > code:
+   >
    > `HeadingContent`
+   >
    > `-----`
 
    That mean using the h1 style to display heading content, the relaship of they two, like:
@@ -59,9 +63,33 @@ The Paragragh is another basic element class. They use a blank line to split the
 
 In the paragraghs, they have some another syntax to decorate themselves.
 
-1. Line Breaks
+1. Line Break
+
+    Line break is a kind of paragragh decorators, they'll make a new blank line in a paragraph.
+    It's composed by two space ' ' with one line feed, they two following the frist line.
+
+    > code:
+    >
+    > `frist line  `<br>
+    > `second line`
+    >
+    > display:
+    >
+    > frist line  
+    > secend line
+    >
 
 2. Bold and Italic
+
+    Bold and Italic are literaly make the word to them style. they using star mark `*` and underline `_` make `*content*` shape to explain them.
+
+    The number of marks to select Bold, Italic and them two, like:
+
+    > |Code|display|
+    > |:---:|---|
+    > |`*Italic*`|*Italic*|
+    > |`**Bold**`|**Bold**|
+    > |`***Bold and Italic***`|***Bold and Italic***|
 
 ## Inserts
 
