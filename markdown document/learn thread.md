@@ -59,7 +59,7 @@ The Paragragh is another basic element class. They use a blank line to split the
 > |Code|`Paragragh1`<br><br>`Paragragh2`|`Paragragh1`<br>`Paragragh2`|
 > |Display|Paragragh1<br>Paragragh2|Paragragh1Paragragh2|
 
-### Text Style
+### Formating Text
 
 In the paragraghs, they have some another syntax to decorate themselves.
 
@@ -91,13 +91,41 @@ In the paragraghs, they have some another syntax to decorate themselves.
     > |`**Bold**`|**Bold**|
     > |`***Bold and Italic***`|***Bold and Italic***|
 
+    These marks can be repalced any pair(head and tail) of star marks to underline, the display will not change.
+
+3. Strikethrough (Availability)
+
+4. Subscript (Availability)
+
+5. Superscript (Availability)
+
 ## Inserts
 
+I think the markdown have some insert aparts, in official tutorial they not call that, but I do.
+
+The insert is a part have extra function out of no functional text display, like hyper-link(links), images and insertable graphic shape.
+
 ### Links
+
+Links are creatable on a paragragh text, they have many type of style to display, like following:
+
+1. Title link
+
+2. URLs and Email
+
+3. Formating
+
+4. Reference-style Link
+
+5. Heading ID Links (Availability)
 
 ### Images
 
 ### Horizontal Rule
+
+### Heading IDs (Availability)
+
+### Emoji (Availability)
 
 ## Blocks
 
@@ -107,6 +135,10 @@ In the paragraghs, they have some another syntax to decorate themselves.
 
 ### Code
 
+### Table (Availability)
+
 ## Others
+
+### Automatic URL Linking
 
 ### Escaping Form
