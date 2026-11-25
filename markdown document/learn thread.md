@@ -1,6 +1,6 @@
 # MarkDown Learn Thread
 
-- Tutorial source: [Tutorial Site](https://www.markdownguide.org/)
+- Tutorial source: [Markdown Guid](https://www.markdownguide.org/)
 - Learning reason: I want to write my learning note by using markdown
 
 # Markdown Syntax
@@ -121,6 +121,10 @@ Links are creatable on a paragragh text, they have many type of style to display
 
 ### Images
 
+1. Image
+
+2. Link Image
+
 ### Horizontal Rule
 
 ### Heading IDs (Availability)
@@ -142,3 +146,5 @@ Links are creatable on a paragragh text, they have many type of style to display
 ### Automatic URL Linking
 
 ### Escaping Form
+
+### HTML
